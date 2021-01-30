@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Docker nodejs</title>
+<script src="./node_modules/underscore/underscore-min.js"></script>
+<script>
+    var numbers = [1, 2, 5, -3];
+    var squareArrays = _.map(numbers, (n)=> n*n);
+    console.log('squares for ' + numbers + ' are below:');
+    console.log(squareArrays);
+
+</script>
+</head>
+<body>
+
+<h2>Dockering nodejsApp</h2>
+<p>This is a paragraph.</p>
+<div id="did">empty
+
+</div>
+
+<script>
+document.getElementById('did').innerHTML = new Date();
+</script>
+</body>
+</html>
